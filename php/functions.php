@@ -10,7 +10,7 @@
     
         $servername = "localhost";
         $username = "id21360120_root";
-        $password = "Evdr05!6";
+        $password = "******";
         $dataBase = "id21360120_ecommercesite";
     
         // Create connection
