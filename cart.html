@@ -1,0 +1,207 @@
+<html>
+    <head>  
+        
+      
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link href="css/index.css" rel="stylesheet">
+
+    </head>
+    <body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Edwin's Shop</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="index.php" class="nav-link " aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="products.php" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="cart.html" class="nav-link active">Cart</a></li>
+          </ul>
+        </header>
+      </div>
+
+
+    <section class="h-100" >
+        <div class="container h-100 py-5">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-10">
+      
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <h3 class="fw-normal mb-0 text-black">Shopping Cart</h3>
+                <div>
+                
+                </div>
+              </div>
+
+            <div id="cartProductsDisplay">
+
+                <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <div class="square-spin-2"></div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <div class="square-spin-2"></div>
+                        
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                        <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                        </button>
+        
+                        <input id="form1" min="0" name="quantity" value="2" type="number"
+                            class="form-control form-control-sm" />
+        
+                        <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <div class="square-spin-2"></div>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                        <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+            
+                    <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <div class="square-spin-2"></div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <div class="square-spin-2"></div>
+                        
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                        <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                        </button>
+        
+                        <input id="form1" min="0" name="quantity" value="2" type="number"
+                            class="form-control form-control-sm" />
+        
+                        <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <div class="square-spin-2"></div>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                        <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+        
+                    <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <div class="square-spin-2"></div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <div class="square-spin-2"></div>
+                        
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                        <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                        </button>
+        
+                        <input id="form1" min="0" name="quantity" value="2" type="number"
+                            class="form-control form-control-sm" />
+        
+                        <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <div class="square-spin-2"></div>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                        <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+        
+                    <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                          <div class="square-spin-2"></div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3">
+                          <div class="square-spin-2"></div>
+                        
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                        <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                            <i class="fas fa-minus"></i>
+                        </button>
+        
+                        <input id="form1" min="0" name="quantity" value="2" type="number"
+                            class="form-control form-control-sm" />
+        
+                        <button class="btn btn-link px-2"
+                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                          <div class="square-spin-2"></div>
+                        </div>
+                        <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                        <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+
+                </div>
+      
+             
+      
+              <div class="card">
+                <div class="card-body">
+                  <a href="checkout.html"> 
+                    <button type="button" class="btn btn-primary btn-block btn-lg" >Proceed to Pay</button>
+                  </a>
+                  
+                </div>
+              </div>
+
+            
+            
+            
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    
+    
+
+    <script src="JS/ecomClass.js"></script>
+    <script src="JS/cartClass.js"></script>
+
+
+</html>
